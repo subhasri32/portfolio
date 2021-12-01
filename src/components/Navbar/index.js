@@ -1,16 +1,16 @@
 import React from 'react'
-import {Nav,NavbarContainer,NavLogo,MobileIcon,Image,NavMenu,NavItem,NavLinks} from './NavbarElements'
+import {Nav,NavbarContainer,MobileIcon,NavMenu,NavItem,NavLinks} from './NavbarElements'
 import {FaBars} from 'react-icons/fa'
-import Logo from '../../Images/Logo.png';
+// import Logo from '../../Images/Logo.png';
 
 function Navbar({toggle}) {
     return (
         <>
             <Nav>
                 <NavbarContainer>
-                   <NavLogo to='/'>
+                   {/* <NavLogo to='/'>
                    <img src={Logo}/>
-                   </NavLogo>
+                   </NavLogo> */}
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>

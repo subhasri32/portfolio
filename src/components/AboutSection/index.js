@@ -9,7 +9,7 @@ function About() {
             <h1 className='logo-text text-center py-md-5 py-xs-5'>About Me</h1>
             <div className='row'>
                 <div className='col-md-5 col-sm-12 mb-3  aboutImg' data-aos="fade-right">
-                    <img src={Me} />
+                    <img src={Me} alt="Me"/>
                 </div>
                 <div className='col-md-6 col-sm-12' data-aos="fade-left">
                     <p>I'm a passionate Full stack developer with the goal of working on a project that solves problems with thoughtful UI design, creating intuitive, dynamic user experiences powered by strong backend. I primarily work with MERN stack among the full stack technologies.
